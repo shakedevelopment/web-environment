@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web environment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="welcome">
+            <p>would you like to join our discord for the key or do a quick test? (discord is way faster)</p>
+            <button id="discordBtn">discord</button>
+            <button id="testBtn">test</button>
+        </div>
 
+        <div id="quiz" class="hidden">
+            <p id="question"></p>
+            <input type="number" id="answerInput" />
+            <button id="submitAnswer">submit</button>
+            <p id="feedback"></p>
+        </div>
+
+        <div id="result" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
